@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class StudentApp{ 
     public static void main(String[] args) {
-        // Creating individual student objects
+        
         Student s1 = new Student("Alice", 85);
         Student s2 = new Student("Bob", 78);
         Student s3 = new Student("Charlie", 92);
@@ -14,7 +14,6 @@ class StudentApp{
         // Calculating average marks
         double averageMarks = (double) totalMarks / 5;
 
-        // Displaying the average
         System.out.println("Average Marks: " + averageMarks);
     }
 }
